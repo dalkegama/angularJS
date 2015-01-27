@@ -1,0 +1,36 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/support";
+@import "compass/css3/deprecated-support";
+
+
+
+body{
+    background-color: cadetblue;
+    display: block;
+}
+
+h1{
+    font-size: 1em;
+    color:#fff;
+}
+h2{
+    font-size: 1em;
+    color: red;
+}
+
+li{
+    border-bottom: 2px solid red;
+    padding: 30px 10px;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+
+.sirasa-sinhala{
+    background-color: #d33333;
+}
+.bbc-sinhala{
+    background-color: #a90101;
+}
