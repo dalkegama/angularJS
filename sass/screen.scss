@@ -3,8 +3,6 @@
 @import "compass/support";
 @import "compass/css3/deprecated-support";
 
-
-
 body{
     background-color: cadetblue;
     display: block;
@@ -16,7 +14,7 @@ h1{
 }
 h2{
     font-size: 1em;
-    color: red;
+
 }
 
 li{
@@ -33,4 +31,7 @@ li{
 }
 .bbc-sinhala{
     background-color: #a90101;
+}
+.lankadeepa{
+    background-color: #6BC0FF;
 }

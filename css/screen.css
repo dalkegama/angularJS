@@ -63,41 +63,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 body {
   background-color: cadetblue;
   display: block;
 }
 
-/* line 13, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 h1 {
   font-size: 1em;
   color: #fff;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 h2 {
   font-size: 1em;
-  color: red;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 li {
   border-bottom: 2px solid red;
   padding: 30px 10px;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .sirasa-sinhala {
   background-color: #d33333;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .bbc-sinhala {
   background-color: #a90101;
+}
+
+/* line 35, ../sass/screen.scss */
+.lankadeepa {
+  background-color: #6BC0FF;
 }
