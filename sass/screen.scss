@@ -2,30 +2,84 @@
 @import "compass/css3";
 @import "compass/support";
 @import "compass/css3/deprecated-support";
-
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption);
 body{
     background-color: cadetblue;
     display: block;
 }
 
 h1{
-    font-size: 1em;
+    font-size: 2.3em;
     color:#fff;
 }
-h2{
-    font-size: 1em;
 
+ul{
+    position: relative;
+    li{
+        overflow: hidden;
+        height: 200px;
+        h2{
+            padding: 15px 10px;
+        }
+        h2,.date,.sitename{
+            text-align: center;
+        }
+        .date{
+            background-color: orange;
+            text-align: center;
+            font-family: 'PT Sans Caption', sans-serif;
+        }
+        .date,
+        .author,
+        .sitename{
+            text-transform: capitalize;
+            font-size: 0.75em;
+            padding: 5px;
+        }
+        .date,
+        .author,
+        .sitename,
+        .excerpt{
+            padding: 5px 10px;
+        }
+    }
 }
-
-li{
-    border-bottom: 2px solid red;
-    padding: 30px 10px;
+.ng-enter{
+    @include transition(all 1s ease-in);
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
 }
 
+.canvas{
+    float: left;
+}
 
+.ng-enter{
+    position:relative;
+    opacity: 0;
+    overflow: hidden;
+    height:10px;
+    @include transition(all 0.5s linear);
+    &.ng-enter-active{
+        opacity: 1;
+        height:200px;
+        @include transition(all 1s ease-in);
+    }
+}
+.sirasa-sinhala,
+.bbc-sinhala,
+.lankadeepa,
+.lankacnews,
+.adaderana{
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    h2{
+        font-size:2.5em;
+    }
+}
 .sirasa-sinhala{
     background-color: #d33333;
 }
@@ -34,4 +88,7 @@ li{
 }
 .lankadeepa{
     background-color: #6BC0FF;
+}
+.lankacnews{
+    background-color: #dcdcdc;
 }
